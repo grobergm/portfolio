@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import About from './components/About/About';
-import Nav from './components/Nav/Nav';
-import river from './img/river.jpg'
+import Nav from './Nav';
+import Banner from './Banner';
+import About from './About';
+import Projects from './Projects';
+import Connect from './Connect';
+
+
 class App extends Component{
 	constructor(props){
 		super(props)
@@ -25,18 +29,15 @@ class App extends Component{
 	}
 
 	render(){
-		const heroBanner={
-			background:`url(${river})`,
-			backgroundSize:'cover',
-			height:'500px'
-		}
 		return (
     <div>
     	<Nav top={this.state.top} />
-    	<div style={heroBanner}></div>
+    	<Banner />
       <About />
+      <Projects />
+      <Connect />
     </div>
-  	);
+  	)
 	}
   
 }

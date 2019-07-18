@@ -1,5 +1,5 @@
 import React from 'react';
-import matt from '../../img/matt.jpg'
+import matt from './img/matt.jpg'
 function About(){
 	const grid={
 		display:'grid',
@@ -8,13 +8,13 @@ function About(){
 		gridGap:'1rem'
 	}
 	return (
-		<div>
+		<div id="about">
 			<h1 style={{padding:'1rem 0 0 1rem'}}>Hi there!</h1>
 			<div style={{padding:'0 0 2rem 2rem'}}>
 				<p>Welcome to my personal website!</p>
 				<p>I started my career in Ecology, earning a <strong>Master of Science degree</strong> when I was 25.</p>
-				<p>After working in various roles I realized that I had a passion for developing software.</p>
-				<p>I started teaching myself, then went to Epicodus (a six month, full time web development training).</p>
+				<p>After working in various positions I realized that I had a passion for programming.</p>
+				<p>I started teaching myself how to make websites, then went to Epicodus (a six month, full time web development training).</p>
 				<p>I live in Eugene, OR, and am looking for a front-end developer position.</p>
 			</div>
 			<div style={grid}>
@@ -33,9 +33,10 @@ function About(){
 				</div>
 				<div>
 					<h2>Career Goals</h2>
-					<p>Discover, apply, and write about exciting new tech</p>
-					<p>Create amazing user interfaces</p>
-					<p>Work with a team focused on quality over quantity</p>
+					<p>Start a Jr. front-end engineer position.</p>
+					<p>Discover, apply, and write about exciting new tech.</p>
+					<p>Create amazing user interfaces.</p>
+					<p>Work with a company focused on quality over quantity.</p>
 				</div>
 			</div>
 		</div>
