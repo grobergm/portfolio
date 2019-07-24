@@ -26,12 +26,12 @@ function Connect(){
 			  	<a className="btn btn-primary" href="https://github.com/grobergm">Go to Profile</a>
 			  </div>
 			  <div className="tab-pane fade" id="medium" role="tabpanel" aria-labelledby="medium-tab">
-			  	<p>I write a web developmet blog on Medium!</p>
+			  	<p>I write a web development blog on Medium!</p>
 			  	<p>Follow me for some sweet tips.</p>
 			  	<a className="btn btn-primary" href="https://medium.com/@grobergmg">Go to Profile</a>
 			  </div>
 			  <div className="tab-pane fade" id="linkedIn" role="tabpanel" aria-labelledby="linkedIn-tab">
-			  	<p>If you are interested my professional background, connect with me on LinkedIn</p>
+			  	<p>If you are interested in my professional background, connect with me on LinkedIn</p>
 			  	<a className="btn btn-primary" href="https://www.linkedin.com/in/grobergm/">Go to Profile</a>
 			  </div>
 			  <div className="tab-pane fade" id="email" role="tabpanel" aria-labelledby="email-tab">

@@ -13,7 +13,7 @@ function About(){
 			<div style={{padding:'0 0 2rem 2rem'}}>
 				<p>Welcome to my personal website!</p>
 				<p>I started my career in Ecology, earning a <strong>Master of Science degree</strong> when I was 25.</p>
-				<p>After working in various positions I realized that I had a passion for programming.</p>
+				<p>After working in various positions, I realized that I had a passion for programming.</p>
 				<p>I started teaching myself how to make websites, then went to Epicodus (a six month, full time web development training).</p>
 				<p>I live in Eugene, OR, and am looking for a front-end developer position.</p>
 			</div>

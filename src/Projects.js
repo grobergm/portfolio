@@ -11,14 +11,14 @@ import haunted from './img/projects/haunted.PNG'
 const projectData=[
 	{
 	title:'Eco-Sim',
-	description:'An Ecology Based Game that uses React and Redux',
+	description:'An ecology based game that uses React and Redux',
 	url:'https://ecosim-f5668.firebaseapp.com/',
 	repo:'https://github.com/grobergm/eco-sim',
 	image:ecosim
 	},
 	{
 	title:'React Taproom',
-	description:'A digital Taproom using React and Redux, that can track multiple tabs and keg data.',
+	description:'A digital taproom, using React and Redux, which can track multiple tabs and keg data.',
 	url:'https://react-tap.firebaseapp.com/',
 	repo:'https://github.com/grobergm/ReactTaproom',
 	image:reactTap
@@ -39,7 +39,7 @@ const projectData=[
 	},
 	{
 	title:'Hnefatafl',
-	description:'A ancient Norse table top game, digitized for the modern world! Uses ',
+	description:'A ancient Norse table top game, digitized for the modern world! Uses JavaScript',
 	url:'https://grobergm.github.io/hnefatafl/',
 	repo:'https://github.com/grobergm/hnefatafl',
 	image:hnefatafl
