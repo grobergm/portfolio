@@ -12,10 +12,11 @@ function About(){
 			<h1 style={{padding:'1rem 0 0 1rem'}}>Hi there!</h1>
 			<div style={{padding:'0 0 2rem 2rem'}}>
 				<p>Welcome to my personal website!</p>
+				<p>I am a front-end focused developer, specializing in JavaScript</p>
 				<p>I started my career in Ecology, earning a <strong>Master of Science degree</strong> when I was 25.</p>
 				<p>After working in various positions, I realized that I had a passion for programming.</p>
 				<p>I started teaching myself how to make websites, then went to Epicodus (a six month, full time web development training).</p>
-				<p>I live in Eugene, OR, and am looking for a front-end developer position.</p>
+				<p>I live in Eugene, OR, and am looking for a web development position (in Oregon or remote; contract or salary).</p>
 			</div>
 			<div style={grid}>
 				<div style={{gridRow:'span 2'}}>
@@ -26,17 +27,18 @@ function About(){
 					<ul>
 						<li>JavaScript (ES6), HTML5, CSS3</li>
 						<li>React and Angular</li>
+						<li>Unit Testing: Jest, Karma/Jasmine</li>
 						<li>Writing about Coding</li>
 						<li>Integration with APIs</li>
 						<li>Responsive Web Design</li>
 					</ul>
 				</div>
 				<div>
-					<h2>Career Goals</h2>
-					<p>Start a Jr. front-end engineer position.</p>
-					<p>Discover, apply, and write about exciting new tech.</p>
-					<p>Create amazing user interfaces.</p>
-					<p>Work with a company focused on quality over quantity.</p>
+					<h2>Dream Job</h2>
+					<p>I love to teach myself new skills. A position that involves researching and applying new tech would be awesome!</p>
+					<p>I enjoy creating intuitive user interfaces, which are interactive and dynamic.</p>
+					<p>Writing unit tests is oddly satisfying for me.🤷‍♂️</p>
+					<p>I would excel in a position where I could integrate skills from my former career (especially biology, statistics, or technical writing).</p>
 				</div>
 			</div>
 		</div>
