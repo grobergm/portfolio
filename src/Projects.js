@@ -1,6 +1,10 @@
 import React from 'react';
 import projectData from './projectData'
 function Projects(){
+	const cardStyle={
+		width: '18rem',
+		margin:'0.25rem',
+	}
 	return (
 		<div className="container" id="projects" style={{marginTop:'4rem'}}>
 			<h1>Projects</h1>
@@ -8,7 +12,7 @@ function Projects(){
 				{
 					projectData.map((project,index)=>{
 						return(
-							<div key={index} className="card" style={{width: '18rem', margin:'0.25rem'}}>
+							<div key={index} className="card" style={cardStyle}>
 							  <img src={project.image} className="card-img-top" alt={project.title}/>
 							  <div className="card-body">
 							    <h5 className="card-title">{project.title}</h5>

@@ -7,8 +7,16 @@ import hnefatafl from './img/projects/hnefatafl.PNG'
 import webDesign from './img/projects/web-design.PNG'
 import space from './img/projects/space.PNG'
 import haunted from './img/projects/haunted.PNG'
+import volNet from './img/projects/vol-net.PNG'
 
 const projectData=[
+	{
+	title:'Volunteer Network',
+	description:'A full stack, single page app, used to coordinate volunteer projects. Uses the MERN stack (MongoDB,Express,React,Node).',
+	url:'https://volunteer-network.herokuapp.com/',
+	repo:'https://github.com/grobergm/volunteer-network',
+	image:volNet
+	},
 	{
 	title:'Eco-Sim',
 	description:'An ecology based game that uses React and Redux',
@@ -38,18 +46,18 @@ const projectData=[
 	image:etsy
 	},
 	{
-	title:'Hnefatafl',
-	description:'A ancient Norse table top game, digitized for the modern world! Uses JavaScript',
-	url:'https://grobergm.github.io/hnefatafl/',
-	repo:'https://github.com/grobergm/hnefatafl',
-	image:hnefatafl
-	},
-	{
 	title:'Unsplash Clone',
 	description:'A clone of Unsplash, focusing on its responsive behavior, using Sass',
 	url:'https://grobergm.github.io/unsplash-clone/',
 	repo:'https://github.com/grobergm/unsplash-clone',
 	image:unsplash
+	},
+	{
+	title:'Hnefatafl',
+	description:'A ancient Norse table top game, digitized for the modern world! Uses JavaScript',
+	url:'https://grobergm.github.io/hnefatafl/',
+	repo:'https://github.com/grobergm/hnefatafl',
+	image:hnefatafl
 	},
 	{
 	title:'Imagine Studios',
